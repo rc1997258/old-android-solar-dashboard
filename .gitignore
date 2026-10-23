@@ -1,0 +1,35 @@
+# Built apps: publish them under GitHub Releases, not in git
+*.apk
+*.apks
+*.aab
+
+# Signing keys: NEVER commit
+*.keystore
+*.jks
+*.p12
+
+# Vendor app and its decompiled code (not ours to publish)
+com.soysource*.apk
+soyo_src/
+apkwork/
+*.smali
+
+# Build and test output
+tapo-logger/build/
+tapo-logger/test/out/
+*.class
+*.log
+__pycache__/
+*.pyc
+
+# Personal data
+tapo_logs/
+tapo_*.csv
+hotspot*.log
+hotspot_files.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
